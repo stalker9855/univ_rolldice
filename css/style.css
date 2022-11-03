@@ -66,26 +66,6 @@ img{
         height: 100vh;
     }
 }
-@media (max-height: 800px)
-{
-    img{
-        width: 310px;
-        height: 310px;
-    }
-    #diceRollHeader{
-        font-size: 30px;
-    }
-}
-@media (max-height: 600px)
-{
-    img{
-        width: 280px;
-        height: 280px;
-    }
-    #diceRollHeader{
-        font-size: 28px;
-    }
-}
 #win{
     animation-name: win_anim;
     animation-delay: 0.2s;
