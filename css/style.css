@@ -7,13 +7,16 @@ img{
     border-radius: 20px;
     box-shadow: 5px 0px 2px rgb(0,0,0,0.2);
     border: solid 10px black;
-    width: 360px;
-    height: 360px;
+    width: 355px;
+    height: 355px;
 
 }
 #diceRollHeader{
     font-size: 48px;
     margin: -5px;
+}
+#countUser{
+    margin-top: -5px;
 }
 .container{
     position: relative;
@@ -34,8 +37,8 @@ img{
 }
 @media (max-width: 1200px) {
     img{
-        width: 350px;
-        height: 350px;
+        width: 340px;
+        height: 340px;
     }
     #diceRollHeader{
         font-size: 44px;
@@ -43,8 +46,8 @@ img{
 }
 @media (max-width: 992px){
     img{
-        width: 320px;
-        height: 320px;
+        width: 310px;
+        height: 310px;
     }
     #diceRollHeader{
         font-size: 40px;
