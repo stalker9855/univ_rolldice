@@ -68,6 +68,9 @@ img{
 }
 @media (orientation: landscape) and (hover: none) and (pointer: coarse)
 {
+    .container{
+        flex-direction: row;
+    }
     img{
         width: 180px;
         height: 180px;
